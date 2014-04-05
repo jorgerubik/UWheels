@@ -1,4 +1,5 @@
-UWheels
+<h1>UWheels</h1>
+<img src="img/icono2.png" alt="UWheels">
 El proyecto UWheels está dirigido a los estudiantes uniandinos: ofrecer una plataforma
 móvil del sistema de Portal Viaje, que perite gesionar los viajes en tiempo real.
 Asi mismo es una aplicación fácil de usar que facilita la creación de viajes haciendo uso
