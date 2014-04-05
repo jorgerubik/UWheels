@@ -1,0 +1,1 @@
+Para poder hacer funcionar la aplicación correctamente se requiere que el prototipo se copie dentro de un servidor (Apache, wamp, xampp, etc.) y por medio de este se despliegue en cualquier navegador.
