@@ -22,18 +22,18 @@
 
 		<!--contenido-->
 		<div data-role="content">
-			<form action="viaje.html">
-				<h3>Jorge</h3>
-				<p>Viaje 1, Precio: $2.000</p>
-				<input type="submit" value="Solicitar" data-theme="b">
-				
-			</form>
-			<br>
-			<hr width="100%"/>
-			<form action="viaje.html" method="post">
-				<h3>Andrea</h3>
-				<p>Viaje 2, Precio: $2.500</p>
-				<input type="submit" value="Solicitar" data-theme="b">
+			<form action="viaje_conductor.html" method="post">
+				<h3>Ruta:</h3>
+				<fieldset data-role="controlgroup">
+			    	<legend>Sentido:</legend>
+			        <input name="radio-choice-1" id="radio-choice-1" value="choice-1" type="radio">
+			        <label for="radio-choice-1">Universidad - Casa</label>
+			        <input name="radio-choice-1" id="radio-choice-2" value="choice-2" type="radio">
+			        <label for="radio-choice-2">Casa - Universidad</label>
+		        </fieldset>
+		        <p>Hora:</p>
+		        <input name="date" id="date" value="" type="date">
+		        <input type="submit" value="Crear Viaje" data-theme="b">
 			</form>
 
 		</div>
@@ -43,7 +43,7 @@
 			<div data-role="navbar">
 				<ul>
 					<li><a href="favoritos.html" data-icon="star">Favoritos</a></li>
-					<li><a href="viaje.html" data-icon="search">Viaje</a></li>
+					<li><a href="viaje_conductor.html" data-icon="search">Viaje</a></li>
 					<li><a href="califica.html" data-icon="check">Califica</a></li>
 					<li><a href="perfil.html" data-icon="home">Perfil</a></li>
 					<li><a href="#" data-icon="home">Otro</a></li>
