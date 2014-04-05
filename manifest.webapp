@@ -1,0 +1,30 @@
+{
+  "version": "0.3",
+  "name": "UWheels",
+  "description": "App de carpooling",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "img/icono16.png",
+    "48": "img/icono48.png",
+    "128": "img/icono128.png"
+  },
+  "installs_allowed_from": [
+    "https://marketplace.firefox.com"
+  ],
+  "developer": {
+    "name": "UWheels",
+    "url": "http://informatica-so-apps-yalgomas.blogspot.mx/"
+  },
+  "locales": {
+    "en": {
+      "description": "UWheels - app de cubos carpooling Dev - UWheels",
+      "developer": {
+        "name": "UWheels",
+        "url": "http://informatica-so-apps-yalgomas.blogspot.mx/"
+      }
+    }
+  },
+  "default_locale": "es",
+  "permissions": {},
+  "fullscreen": "true"
+}
