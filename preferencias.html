@@ -23,14 +23,23 @@
 				<h3>Teléfono:</h3>
 				<input type="text">
 				<div data-role="fieldcontain">
-	    			<fieldset data-role="controlgroup">
+	    			<fieldset data-role="controlgroup" id="orientacion">
 	    				<h3>Opciones:</h3>
-							<input type="checkbox" name="checkbox-1" id="checkbox-1" />
-							<label for="checkbox-1">Whatsapp</label>
-							<input type="checkbox" name="checkbox-2" id="checkbox-2" />
-							<label for="checkbox-2">Push</label>
-							<input type="checkbox" name="checkbox-3" id="checkbox-3"  />
-							<label for="checkbox-3">Correo</label>
+							Whatsapp:
+						    <select name="flip-1" id="flip-1" data-role="slider">
+						        <option value="off">Off</option>
+						        <option value="on">On</option>
+						    </select> <br>
+							Push:
+						    <select name="flip-1" id="flip-1" data-role="slider">
+						        <option value="off">Off</option>
+						        <option value="on">On</option>
+						    </select><br>
+						    Correo:
+						    <select name="flip-1" id="flip-1" data-role="slider">
+						        <option value="off">Off</option>
+						        <option value="on">On</option>
+						    </select>
 				    </fieldset>
 				 </div>   
 				 <input type="submit" value="Guardar" data-theme="b">
