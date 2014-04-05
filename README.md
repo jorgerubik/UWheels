@@ -1,11 +1,3 @@
-<style>
-	#orden{
-		text-align: center;
-	}
-	#texto{
-		text-align: justify;
-	}
-</style>
 <div id="orden">
 <h1>UWheels</h1>
 <img src="img/icono2.png" alt="UWheels">
