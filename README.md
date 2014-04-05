@@ -1,5 +1,16 @@
+<style>
+	#orden{
+		text-align: center;
+	}
+	#texto{
+		text-align: justify;
+	}
+</style>
+<div id="orden">
 <h1>UWheels</h1>
 <img src="img/icono2.png" alt="UWheels">
+</div>
+<div id="texto">
 <br>
 <p>
 El proyecto UWheels está dirigido a los estudiantes uniandinos: ofrecer una plataforma
@@ -11,3 +22,4 @@ resultados pertinentes para cada usuario.
 <p>
 El prototipo esta hecho sobre técnologia HTML5 y Jquery mobile, para su funcionamiento es requerido copiar el proyecto dentro de un servidor web (Apache, wamp o xampp). Al ser solo un prototipo su funcionalidad es limitada y sigue en desarrollo.
 </p>
+</div>
